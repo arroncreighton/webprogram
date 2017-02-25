@@ -1,0 +1,90 @@
+/* Arron Creighton */
+
+body { background-color: #666;}
+
+#envelope {  width: 800px;
+             height: 600px;
+             background-color: #666;
+	          margin-left: auto;
+             margin-right: auto; }
+
+#banner {   float: left;
+            width: 800px;
+            height: 50px;
+            background-color: #595;
+            color: #f00; }
+
+#header {   float: left;
+            border: 2px solid black;
+            border-radius: 25px;
+            padding: 10px;
+            background-color: #777;
+            color: #f00;
+            width: 780px;
+            height: 80px;
+            background: -webkit-linear-gradient(red, blue);
+            background: -o-linear-gradient(red, blue);
+            background: -moz-linear-gradient(yellow, green);
+            background: linear-gradient(yellow, green); }
+
+a:link {    color: #FF0000;}
+a:visited {   color: #FFFF00;}
+a:hover {   color:  #FF0000;}
+a:active {   color:  #0000FF;}
+
+#main {     float: left;
+            width: 600px;
+            height: 800px;
+            background-color: #228;}
+
+#advertising { float: left;
+               width: 200px;
+               height: 800px;
+               background-color: #822;}
+
+#footer {  clear: both;
+           width: 800px;
+           height: 40px;
+           background-color: #123;}
+
+h1 {  font-size: 50px;
+      text-align: center;
+      font-family: 'Fontdiner Swanky', cursive;
+      border-radius: 100px; }
+
+h2 {  color: #FFF;
+      font-size: 20px;
+      text-align: center;
+      font-family: 'Fontdiner Swanky', cursive;}
+
+.center { display: block;
+          margin-left: auto;
+          margin-right: auto;}
+
+.logo { width: 75px;
+        height: 75px;}
+
+.nav { list-style: none;
+       margin: 0;
+       padding: 0;
+       text-align: center;
+       border: 1px solid #ccc;
+       border-width: 1px 0;}
+
+.nav li { display: inline;}
+
+.nav a { display: inline-block;
+         padding: 10px; }
+
+.goals { margin-left: 210px; }
+
+p { color: #FFF;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Fontdiner Swanky', cursive; }
+
+iframe{ display: block;
+        margin-right: auto;
+        margin-left: auto;}
+
+
